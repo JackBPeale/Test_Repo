@@ -7,7 +7,7 @@ clear
 close all
 clc
 
-VelGain = 0.3;  
+VelGain = 0.5;  
 
 %Reg = [2 0 2 0 2];             %The given initial sequence from the paper
 Reg = [0 1 2 0 1];
