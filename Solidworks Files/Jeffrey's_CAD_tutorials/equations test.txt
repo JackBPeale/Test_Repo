@@ -1,0 +1,8 @@
+﻿"Pin shaft diam"= .87
+"Base length"= "D1@Boss-Extrude3"
+"D1@Sketch1"= "Pin shaft diam" + .375
+"D1@Boss-Extrude1"= "Pin shaft diam" / 1.5
+"D1@Boss-Extrude2"= "Base length"
+"D1@Sketch4"= "Pin shaft diam" + .0005
+"D1@Sketch2"= "Pin shaft diam"
+"Chamfer1"= IIF ( "Pin shaft diam" < 1mm , "suppressed" , "unsuppressed" )
